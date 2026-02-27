@@ -22,7 +22,7 @@ export default function FilterSidebar({
   const hasFilters = selectedCategories.size > 0 || selectedColors.size > 0;
 
   return (
-    <aside className="w-64 shrink-0">
+    <aside className="w-full shrink-0 md:w-64">
       <div className="rounded-xl border border-gray-200 bg-white p-5">
         <div className="mb-4 flex items-center justify-between">
           <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-500">Filters</h3>

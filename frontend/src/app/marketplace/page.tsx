@@ -91,7 +91,7 @@ export default function MarketplacePage() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <div className="mx-auto max-w-7xl px-4 py-6">
+      <div className="mx-auto max-w-7xl px-4 py-6 overflow-hidden">
         <div className="mb-6">
           <div className="relative">
             <svg className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -107,7 +107,7 @@ export default function MarketplacePage() {
           </div>
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex flex-col gap-6 md:flex-row max-w-full overflow-hidden">
           <FilterSidebar
             categories={categories}
             colors={colors}
@@ -121,7 +121,7 @@ export default function MarketplacePage() {
             }}
           />
 
-          <main className="flex-1">
+          <main className="flex-1 min-w-0">
             {!loading && trending.length > 0 && (
               <section className="mb-6 rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
                 <h2 className="mb-3 text-base font-semibold text-gray-900">🔥 Trending Now</h2>
