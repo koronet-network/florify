@@ -6,19 +6,6 @@ Florify is a dual-sided floral marketplace where buyers can seamlessly compare f
 
 ---
 
-## 📸 Showcase
-
-### The Buyer Marketplace
-![Buyer Marketplace UI](./docs/marketplace.png)
-
-### The Vendor Dashboard
-![The Vendor Dashboard](./docs/vendor-dashboard.png)
-
-### The Notification Dropdown
-![The Notification Dropdown](./docs/notifications.png)
-
----
-
 ## ✨ Core Features
 
 * **Buyer Price-Comparison Experience:** 
